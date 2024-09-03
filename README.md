@@ -1,13 +1,12 @@
 ![Header](./aks-header.png)
 
-<img src='./coding.gif' align="left" width="30%" style="margin-right: 20px;" />
 
 <h1 align="center">Hi 👋, I'm Akshat Kumar Sinha</h1>
 <h3 align="center">A passionate Competitive Coder And Web Developer</h3>
 
-![](https://github-profile-trophy.vercel.app/?username=AKS1719&title=Stars,Commits,Repositories&theme=onedark)
 
 # 💫 About Me:
+<img src='./coding.gif' align="left" width="30%" style="margin-right: 20px;" />
 🎵 **Currently Building**: A responsive and visually captivating Music Player with smooth animations and intuitive user experience.<br>
 📱 **Exploring**: The world of React Native to create cross-platform mobile apps with seamless performance.<br>
 💡 **Passionate About**: Crafting engaging user interfaces and creating meaningful experiences through code.<br>
