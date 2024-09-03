@@ -4,7 +4,7 @@
 <h1 align="center">Hi 👋, I'm Akshat Kumar Sinha</h1>
 <h3 align="center">A passionate Competitive Coder And Web Developer</h3>
 
-<img src='./coding.gif' align="center" />
+<img src='./coding.gif' align="center" height="500px" width="100%" />
 
 # 💫 About Me:
 🎵 **Currently Building**: A responsive and visually captivating Music Player with smooth animations and intuitive user experience.<br>
