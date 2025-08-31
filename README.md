@@ -86,8 +86,12 @@
 
 # 📊 GitHub Stats  
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aks1727&theme=dark&hide_border=false" /><br/>
+  <span>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aks1727&theme=dark&hide_border=false" />
+  </span>
+  <span >
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aks1727&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+  </span>
 </p>
 
 ---
@@ -99,7 +103,7 @@
 
 ---
 
-## ✍️ Random Dev Quote  
+## ✍️ Dev Quote  
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
 </p>
