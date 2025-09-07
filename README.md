@@ -36,51 +36,82 @@
 
 ## 💻 Skills  
 
-### 🚀 Languages & Core  
-![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2b%2b&logoColor=white)  
-![C](https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=white)  
-![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white)  
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)  
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)  
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
-### 🎨 Frontend & UI  
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)  
-![Redux](https://img.shields.io/badge/-Redux-764ABC?logo=redux&logoColor=white)  
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white)  
-![Chakra UI](https://img.shields.io/badge/-ChakraUI-319795?logo=chakraui&logoColor=white)  
-![React Router](https://img.shields.io/badge/-React_Router-CA4245?logo=react-router&logoColor=white)  
-![Context API](https://img.shields.io/badge/-ContextAPI-000000?logo=react&logoColor=white)  
+  <!-- 🚀 Languages & Core -->
+<div>
+  <h3>🚀 Languages & Core</h3>
+  <div style="display: flex; flex-direction: column; gap: 8px;">
+    <img src="https://img.shields.io/badge/-C++-00599C?logo=c%2b%2b&logoColor=white" />
+    <img src="https://img.shields.io/badge/-C-A8B9CC?logo=c&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black" />
+    <img src="https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white" />
+  </div>
+</div>
 
-### 🛠 Backend & Databases  
-![NodeJS](https://img.shields.io/badge/-NodeJS-339933?logo=node.js&logoColor=white)  
-![ExpressJS](https://img.shields.io/badge/-ExpressJS-000000?logo=express&logoColor=white)  
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white)  
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white)  
-![Socket.io](https://img.shields.io/badge/-Socket.io-010101?logo=socketdotio&logoColor=white)  
 
-### ⚙️ DevOps & Tools  
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)  
-![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)  
-![Postman](https://img.shields.io/badge/-Postman-FF6C37?logo=postman&logoColor=white)  
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)  
-![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?logo=jenkins&logoColor=white)  
-![Netlify](https://img.shields.io/badge/-Netlify-00C7B7?logo=netlify&logoColor=white)  
-![Vercel](https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white)  
-![Render](https://img.shields.io/badge/-Render-46E3B7?logo=render&logoColor=white)  
-![Babel](https://img.shields.io/badge/-Babel-F9DC3E?logo=babel&logoColor=black)  
-![JWT](https://img.shields.io/badge/-JWT-000000?logo=jsonwebtokens&logoColor=white)  
+  <!-- 🎨 Frontend & UI -->
+  <div>
+    <h3>🎨 Frontend & UI</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+      <img src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black" />
+      <img src="https://img.shields.io/badge/-Redux-764ABC?logo=redux&logoColor=white" />
+      <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white" />
+      <img src="https://img.shields.io/badge/-ChakraUI-319795?logo=chakraui&logoColor=white" />
+      <img src="https://img.shields.io/badge/-React_Router-CA4245?logo=react-router&logoColor=white" />
+      <img src="https://img.shields.io/badge/-ContextAPI-000000?logo=react&logoColor=white" />
+    </div>
+  </div>
 
-### 🤖 Automation & QA  
-![Selenium](https://img.shields.io/badge/-Selenium-43B02A?logo=selenium&logoColor=white)  
-![TestNG](https://img.shields.io/badge/-TestNG-FF6C37?logo=testng&logoColor=white)  
-![Cucumber](https://img.shields.io/badge/-Cucumber-23D96C?logo=cucumber&logoColor=white)  
-![BDD](https://img.shields.io/badge/-BDD-000000?logo=behave&logoColor=white)  
-![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white)  
-![Manual Testing](https://img.shields.io/badge/-Manual_Testing-FF5733?logo=testing-library&logoColor=white)  
-![SQL Testing](https://img.shields.io/badge/-SQL_Testing-4479A1?logo=database&logoColor=white)  
-![Frameworks](https://img.shields.io/badge/-Hybrid_|_Keyword_|_Data--Driven-6E57E0)  
+  <!-- 🛠 Backend & Databases -->
+  <div>
+    <h3>🛠 Backend & Databases</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+      <img src="https://img.shields.io/badge/-NodeJS-339933?logo=node.js&logoColor=white" />
+      <img src="https://img.shields.io/badge/-ExpressJS-000000?logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white" />
+      <img src="https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Socket.io-010101?logo=socketdotio&logoColor=white" />
+    </div>
+  </div>
+
+  <!-- ⚙️ DevOps & Tools -->
+  <div>
+    <h3>⚙️ DevOps & Tools</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+      <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Postman-FF6C37?logo=postman&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Jenkins-D24939?logo=jenkins&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Netlify-00C7B7?logo=netlify&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Vercel-000000?logo=vercel&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Render-46E3B7?logo=render&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Babel-F9DC3E?logo=babel&logoColor=black" />
+      <img src="https://img.shields.io/badge/-JWT-000000?logo=jsonwebtokens&logoColor=white" />
+    </div>
+  </div>
+
+  <!-- 🤖 Automation & QA -->
+  <div>
+    <h3>🤖 Automation & QA</h3>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+      <img src="https://img.shields.io/badge/-Selenium-43B02A?logo=selenium&logoColor=white" />
+      <img src="https://img.shields.io/badge/-TestNG-FF6C37?logo=testng&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Cucumber-23D96C?logo=cucumber&logoColor=white" />
+      <img src="https://img.shields.io/badge/-BDD-000000?logo=behave&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Manual_Testing-FF5733?logo=testing-library&logoColor=white" />
+      <img src="https://img.shields.io/badge/-SQL_Testing-4479A1?logo=database&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Hybrid_|_Keyword_|_Data--Driven-6E57E0" />
+    </div>
+  </div>
+
+</div>
+
 
 ---
 
