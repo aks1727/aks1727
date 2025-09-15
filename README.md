@@ -3,17 +3,20 @@
 <h1 align="center">Hi 👋, I'm Akshat Kumar Sinha</h1>
 <h3 align="center">💻 Full-Stack Web Developer | 📱 React Native Developer | 🏆 Competitive Programmer | 🤖 Selenium Automation Tester</h3>
 
+
+![Profile Views](https://komarev.com/ghpvc/?username=aks1727&color=brightgreen&style=for-the-badge&label=Profile+Views)
 <p align="center">
-  <img src="./coding.gif" height="400px" width="80%" style="border-radius:12px;" />
+  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"  hieght="20%" style="border-radius:12px;" />
 </p>
 
 ---
 
 # 💫 About Me  
-- 🎵 **Currently Building**: A responsive and visually captivating **Music Player** with smooth animations & engaging UX.  
-- 📱 **Exploring**: Cross-platform app development using **React Native**.  
-- 💡 **Passionate About**: Crafting clean UIs & meaningful digital experiences through code.  
-- 🚀 **Next Step**: Mastering advanced animations & scalable **state management**.  
+
+- 🖥 **Building**: A **cross-platform operating system** for **laptops and mobile devices**, blending GUI simplicity with CLI power.  
+- 📱 **Exploring**: **React Native** and advanced cross-platform performance techniques.  
+- 💡 **Passionate About**: Elegant UIs, seamless user experiences, and pushing boundaries in **full-stack** and **system-level development**.  
+- 🚀 **Next Goal**: Perfecting **complex animations**, **scalable state management**, and sharpening **OS development expertise**.  
 
 ---
 
@@ -147,8 +150,6 @@
 </p>
 
 ---
-
-![Profile Views](https://komarev.com/ghpvc/?username=aks1727&color=brightgreen&style=for-the-badge&label=Profile+Views)
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
