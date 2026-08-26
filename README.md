@@ -87,23 +87,27 @@
 | **[OWL CODER — Level 2](https://github.com/aks1727/OWL_CODER-level-2)** | Optimized solutions for advanced DSA, dynamic programming, and competitive challenges. | <img src="https://skillicons.dev/icons?i=java" height="15" /> Java &nbsp; <img src="https://skillicons.dev/icons?i=cpp" height="15" /> C++ |
 | **[QA Automation Suite](https://github.com/aks1727)** | Scalable browser test framework featuring re-usable test engines and regression suites. | <img src="https://skillicons.dev/icons?i=java" height="15" /> Java &nbsp; <img src="https://skillicons.dev/icons?i=selenium" height="15" /> Selenium WebDriver |
 ---
-
 ### `04` — Activity & Metrics
 
 <div align="center">
 
+<!-- Profile Summary Card (Active & Working) -->
 <a href="https://github.com/aks1727">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=aks1727&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0B1120&title_color=38BDF8&icon_color=818CF8" alt="GitHub stats">
-</a>
-<a href="https://github.com/aks1727">
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aks1727&layout=compact&langs_count=6&hide_border=true&theme=tokyonight&bg_color=0B1120&title_color=38BDF8" alt="Top languages">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aks1727&theme=tokyonight" width="85%" alt="Profile Summary" />
 </a>
 
 <br><br>
 
+<!-- Repos Per Language & Stats Cards -->
 <a href="https://github.com/aks1727">
-  <img src="https://streak-stats.demolab.com/?user=aks1727&theme=tokyonight&hide_border=true&background=0B1120&ring=06B6D4&fire=818CF8&currStreakLabel=38BDF8" alt="GitHub streak">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aks1727&theme=tokyonight" width="35%" alt="Repos per Language" />
 </a>
+<a href="https://github.com/aks1727">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=aks1727&theme=tokyonight" width="35%" alt="Most Committed Language" />
+</a>
+
+<br><br>
+
 
 </div>
 
