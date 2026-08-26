@@ -1,72 +1,520 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" role="img" aria-label="Akshat Kumar Sinha — Build with intent. Automate the repetitive. Understand the fundamentals. Improve relentlessly.">
+
   <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16" />
-      <stop offset="50%" stop-color="#0f172a" />
-      <stop offset="100%" stop-color="#1e1b4b" />
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="55%" stop-color="#0a1020"/>
+      <stop offset="100%" stop-color="#050812"/>
     </linearGradient>
-    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="50%" stop-color="#cbd5e1" />
-      <stop offset="100%" stop-color="#38bdf8" />
+
+    <!-- Main accent -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
     </linearGradient>
-    <radialGradient id="glow1" cx="20%" cy="20%" r="60%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+
+    <!-- Soft ambient light -->
+    <radialGradient id="cyanGlow">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity=".13"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glow2" cx="80%" cy="80%" r="60%">
-      <stop offset="0%" stop-color="#10b981" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+
+    <radialGradient id="purpleGlow">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity=".13"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
     </radialGradient>
-    <filter id="blurFilter">
-      <feGaussianBlur stdDeviation="30" />
+
+    <!-- Very subtle grid -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path
+        d="M40 0H0V40"
+        fill="none"
+        stroke="#64748b"
+        stroke-opacity=".045"
+        stroke-width="1"
+      />
+    </pattern>
+
+    <!-- Glow -->
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="45"/>
     </filter>
+
+    <filter id="smallGlow">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+
   </defs>
 
-  <!-- Background card with rounded corners and border -->
-  <rect width="900" height="240" rx="16" fill="url(#bgGradient)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
 
-  <!-- Ambient glowing spheres (pure SVG native, 100% compatible with GitHub camo) -->
-  <circle cx="100" cy="50" r="140" fill="url(#glow1)" filter="url(#blurFilter)" />
-  <circle cx="800" cy="190" r="130" fill="url(#glow2)" filter="url(#blurFilter)" />
+  <!-- ====================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ====================================================== -->
 
-  <!-- Status pill container -->
-  <g transform="translate(310, 30)">
-    <rect width="280" height="28" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
-    <circle cx="18" cy="14" r="4" fill="#10b981" />
-    <text x="32" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#38bdf8" letter-spacing="1">OPEN TO COLLABORATIONS</text>
+  <rect
+    width="1200"
+    height="360"
+    rx="20"
+    fill="url(#bg)"
+  />
+
+  <rect
+    width="1200"
+    height="360"
+    rx="20"
+    fill="url(#grid)"
+  />
+
+  <!-- Ambient lighting -->
+  <circle
+    cx="170"
+    cy="90"
+    r="180"
+    fill="url(#cyanGlow)"
+    filter="url(#blur)"
+  />
+
+  <circle
+    cx="1050"
+    cy="285"
+    r="200"
+    fill="url(#purpleGlow)"
+    filter="url(#blur)"
+  />
+
+
+  <!-- ====================================================== -->
+  <!-- BORDER -->
+  <!-- ====================================================== -->
+
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="358"
+    rx="20"
+    fill="none"
+    stroke="#38bdf8"
+    stroke-opacity=".18"
+  />
+
+
+  <!-- ====================================================== -->
+  <!-- TOP SYSTEM LINE -->
+  <!-- ====================================================== -->
+
+  <g transform="translate(70 48)">
+
+    <circle
+      cx="5"
+      cy="5"
+      r="4"
+      fill="#38bdf8"
+    />
+
+    <circle
+      cx="5"
+      cy="5"
+      r="9"
+      fill="none"
+      stroke="#38bdf8"
+      stroke-opacity=".25"
+    >
+      <animate
+        attributeName="r"
+        values="7;12;7"
+        dur="2.5s"
+        repeatCount="indefinite"
+      />
+
+      <animate
+        attributeName="opacity"
+        values=".8;0;.8"
+        dur="2.5s"
+        repeatCount="indefinite"
+      />
+    </circle>
+
+    <text
+      x="22"
+      y="9"
+      font-family="monospace"
+      font-size="10"
+      letter-spacing="2"
+      fill="#64748b"
+    >
+      ENGINEERING / SYSTEMS / AUTOMATION
+    </text>
+
   </g>
 
-  <!-- Main Title -->
-  <text x="450" y="115" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" fill="url(#textGradient)" letter-spacing="-0.5">Akshat Kumar Sinha</text>
 
-  <!-- Subtitle -->
-  <text x="450" y="152" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">
-    <tspan fill="#e2e8f0" font-weight="600">Full-Stack Engineer</tspan>
-    <tspan fill="#475569"> • </tspan>
-    <tspan fill="#e2e8f0" font-weight="600">SDET &amp; QA Automation</tspan>
-    <tspan fill="#475569"> • </tspan>
-    <tspan fill="#e2e8f0" font-weight="600">Next.js &amp; React</tspan>
-    <tspan fill="#475569"> • </tspan>
-    <tspan fill="#e2e8f0" font-weight="600">Unity (Beginner)</tspan>
+  <!-- ====================================================== -->
+  <!-- NAME -->
+  <!-- ====================================================== -->
+
+  <text
+    x="70"
+    y="125"
+    font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+    font-size="48"
+    font-weight="800"
+    letter-spacing="-1.5"
+    fill="#f8fafc"
+  >
+    Akshat Kumar Sinha
   </text>
 
-  <!-- Tag Pills -->
-  <g transform="translate(145, 182)">
-    <!-- Tag 1 -->
-    <rect x="0" y="0" width="130" height="26" rx="6" fill="rgba(99,102,241,0.12)" stroke="rgba(99,102,241,0.3)" />
-    <text x="65" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#a5b4fc">☕ Java &amp; Core C/C++</text>
 
-    <!-- Tag 2 -->
-    <rect x="140" y="0" width="145" height="26" rx="6" fill="rgba(99,102,241,0.12)" stroke="rgba(99,102,241,0.3)" />
-    <text x="212" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#a5b4fc">⚛️ React &amp; Next.js</text>
+  <!-- Small identity line -->
 
-    <!-- Tag 3 -->
-    <rect x="295" y="0" width="165" height="26" rx="6" fill="rgba(99,102,241,0.12)" stroke="rgba(99,102,241,0.3)" />
-    <text x="377" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#a5b4fc">🤖 Selenium &amp; Cucumber</text>
+  <text
+    x="73"
+    y="151"
+    font-family="monospace"
+    font-size="11"
+    letter-spacing="2"
+    fill="#64748b"
+  >
+    BUILD • AUTOMATE • UNDERSTAND • ITERATE
+  </text>
 
-    <!-- Tag 4 -->
-    <rect x="470" y="0" width="140" height="26" rx="6" fill="rgba(99,102,241,0.12)" stroke="rgba(99,102,241,0.3)" />
-    <text x="540" y="17" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="500" fill="#a5b4fc">🎮 Unity Game Dev</text>
+
+  <!-- ====================================================== -->
+  <!-- PHILOSOPHY -->
+  <!-- ====================================================== -->
+
+  <g transform="translate(70 190)">
+
+    <!-- Connecting line -->
+
+    <line
+      x1="8"
+      y1="24"
+      x2="1038"
+      y2="24"
+      stroke="#334155"
+      stroke-width="1"
+    />
+
+    <line
+      x1="8"
+      y1="24"
+      x2="1038"
+      y2="24"
+      stroke="url(#accent)"
+      stroke-width="1"
+      stroke-opacity=".35"
+    >
+      <animate
+        attributeName="stroke-dasharray"
+        values="0 1200;120 1080;0 1200"
+        dur="5s"
+        repeatCount="indefinite"
+      />
+    </line>
+
+
+    <!-- ===================== -->
+    <!-- 01 -->
+    <!-- ===================== -->
+
+    <g>
+
+      <circle
+        cx="8"
+        cy="24"
+        r="8"
+        fill="#08111f"
+        stroke="#38bdf8"
+        stroke-width="1.5"
+      />
+
+      <circle
+        cx="8"
+        cy="24"
+        r="3"
+        fill="#38bdf8"
+      />
+
+      <text
+        x="0"
+        y="-3"
+        font-family="monospace"
+        font-size="9"
+        letter-spacing="1.5"
+        fill="#38bdf8"
+      >
+        01
+      </text>
+
+      <text
+        x="0"
+        y="55"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="15"
+        font-weight="700"
+        fill="#f8fafc"
+      >
+        Build with intent.
+      </text>
+
+      <text
+        x="0"
+        y="75"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="10.5"
+        fill="#64748b"
+      >
+        Solve the right problem.
+      </text>
+
+    </g>
+
+
+    <!-- ===================== -->
+    <!-- 02 -->
+    <!-- ===================== -->
+
+    <g transform="translate(270 0)">
+
+      <circle
+        cx="8"
+        cy="24"
+        r="8"
+        fill="#0a1020"
+        stroke="#60a5fa"
+        stroke-width="1.5"
+      />
+
+      <circle
+        cx="8"
+        cy="24"
+        r="3"
+        fill="#60a5fa"
+      />
+
+      <text
+        x="0"
+        y="-3"
+        font-family="monospace"
+        font-size="9"
+        letter-spacing="1.5"
+        fill="#60a5fa"
+      >
+        02
+      </text>
+
+      <text
+        x="0"
+        y="55"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="15"
+        font-weight="700"
+        fill="#f8fafc"
+      >
+        Automate the repetitive.
+      </text>
+
+      <text
+        x="0"
+        y="75"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="10.5"
+        fill="#64748b"
+      >
+        Let systems do the boring work.
+      </text>
+
+    </g>
+
+
+    <!-- ===================== -->
+    <!-- 03 -->
+    <!-- ===================== -->
+
+    <g transform="translate(540 0)">
+
+      <circle
+        cx="8"
+        cy="24"
+        r="8"
+        fill="#0c1020"
+        stroke="#818cf8"
+        stroke-width="1.5"
+      />
+
+      <circle
+        cx="8"
+        cy="24"
+        r="3"
+        fill="#818cf8"
+      />
+
+      <text
+        x="0"
+        y="-3"
+        font-family="monospace"
+        font-size="9"
+        letter-spacing="1.5"
+        fill="#818cf8"
+      >
+        03
+      </text>
+
+      <text
+        x="0"
+        y="55"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="15"
+        font-weight="700"
+        fill="#f8fafc"
+      >
+        Understand the fundamentals.
+      </text>
+
+      <text
+        x="0"
+        y="75"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="10.5"
+        fill="#64748b"
+      >
+        Don't hide behind abstractions.
+      </text>
+
+    </g>
+
+
+    <!-- ===================== -->
+    <!-- 04 -->
+    <!-- ===================== -->
+
+    <g transform="translate(810 0)">
+
+      <circle
+        cx="8"
+        cy="24"
+        r="8"
+        fill="#100d20"
+        stroke="#c084fc"
+        stroke-width="1.5"
+      />
+
+      <circle
+        cx="8"
+        cy="24"
+        r="3"
+        fill="#c084fc"
+      />
+
+      <text
+        x="0"
+        y="-3"
+        font-family="monospace"
+        font-size="9"
+        letter-spacing="1.5"
+        fill="#c084fc"
+      >
+        04
+      </text>
+
+      <text
+        x="0"
+        y="55"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="15"
+        font-weight="700"
+        fill="#f8fafc"
+      >
+        Improve relentlessly.
+      </text>
+
+      <text
+        x="0"
+        y="75"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif"
+        font-size="10.5"
+        fill="#64748b"
+      >
+        Ship. Learn. Refactor. Repeat.
+      </text>
+
+    </g>
+
   </g>
+
+
+  <!-- ====================================================== -->
+  <!-- BOTTOM TERMINAL SIGNATURE -->
+  <!-- ====================================================== -->
+
+  <g transform="translate(70 320)">
+
+    <text
+      x="0"
+      y="0"
+      font-family="monospace"
+      font-size="10"
+      fill="#38bdf8"
+    >
+      $
+    </text>
+
+    <text
+      x="15"
+      y="0"
+      font-family="monospace"
+      font-size="10"
+      fill="#64748b"
+    >
+      make
+    </text>
+
+    <text
+      x="55"
+      y="0"
+      font-family="monospace"
+      font-size="10"
+      fill="#a5b4fc"
+    >
+      better_systems
+    </text>
+
+    <text
+      x="205"
+      y="0"
+      font-family="monospace"
+      font-size="10"
+      fill="#475569"
+    >
+      // one iteration at a time
+    </text>
+
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- CORNER MARKS -->
+  <!-- ====================================================== -->
+
+  <path
+    d="M25 60V25H60"
+    fill="none"
+    stroke="#38bdf8"
+    stroke-width="1.5"
+    stroke-opacity=".55"
+  />
+
+  <path
+    d="M1175 300V335H1140"
+    fill="none"
+    stroke="#c084fc"
+    stroke-width="1.5"
+    stroke-opacity=".55"
+  />
+
 </svg>
