@@ -4,13 +4,13 @@
 
 <br><br>
 
-<a href="https://github.com/aks1727">
+<!-- <a href="https://github.com/aks1727">
   <img src="https://img.shields.io/github/followers/aks1727?style=flat-square&logo=github&label=Followers&color=0891B2" alt="GitHub followers">
-</a>
+</a> -->
 <a href="https://github.com/aks1727?tab=repositories">
   <img src="https://img.shields.io/badge/Repositories-Explore-4F46E5?style=flat-square&logo=github&logoColor=white" alt="Repositories">
 </a>
-<a href="mailto:akshatsinha423@gmail.com">
+<a href="mailto:kumarsinhaakshat8@gmail.com">
   <img src="https://img.shields.io/badge/Email-Contact-9333EA?style=flat-square&logo=gmail&logoColor=white" alt="Email">
 </a>
 <a href="https://linkedin.com/in/akshatkumarsinha1704">
