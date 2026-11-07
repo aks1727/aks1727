@@ -10,7 +10,7 @@
 <a href="https://github.com/aks1727?tab=repositories">
   <img src="https://img.shields.io/badge/Repositories-Explore-4F46E5?style=flat-square&logo=github&logoColor=white" alt="Repositories">
 </a>
-<a href="mailto:kumarsinhaakshat8@gmail.com">
+<a href="mailto:akshatkumarsinha@proton.me">
   <img src="https://img.shields.io/badge/Email-Contact-9333EA?style=flat-square&logo=gmail&logoColor=white" alt="Email">
 </a>
 <a href="https://linkedin.com/in/akshatkumarsinha1704">
